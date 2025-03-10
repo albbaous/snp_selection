@@ -32,7 +32,7 @@ In short:
 ## 2. Filter based on MAF > 0.01:
 ``awk '$7 > 0.01' eur_significant_snps.txt > eur_filtered_snps.txt``
 
-### PLINK for LD pruning 
+## 3.PLINK for LD pruning 
 If you don’t have access to the genotypic data (e.g., just summary statistics), you'll need the actual genotype data (which would typically come from your GWAS) or from a public reference panel like 1000 Genomes.
 
 #### 1. **Obtain the 1000 Genomes Genotype Data**
