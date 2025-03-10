@@ -56,3 +56,6 @@ If you don’t have access to the genotypic data (e.g., just summary statistics)
 
    ```bash
    plink --bfile 1000genomes_data --indep-pairwise 50 5 0.2 --out pruned_data
+
+
+PS the code so far means ive gotten rid of the headings which isnt great tbh 
